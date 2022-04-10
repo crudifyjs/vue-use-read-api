@@ -1,6 +1,8 @@
 import { ReadFilteredListAPI, ReadFilteredPageAPI, ReadListAPI, ReadPageAPI } from '@crudifyjs/api';
 import { Ref } from '@vue/composition-api';
-import { useFilteredListApi, useFilteredPageApi, useListApi, usePageApi } from 'vue-use-read-api';
+import {
+    useFilteredListApi, UseFilteredListApiOptions, useFilteredPageApi, useListApi, usePageApi, UsePageApiOptions,
+} from 'vue-use-read-api';
 
 export function useReadListApi<T>(readListApi: ReadListAPI<T>) {
     return useListApi<T>(() => readListApi.readList());
@@ -9,33 +11,33 @@ export function useReadListApi<T>(readListApi: ReadListAPI<T>) {
 export function useReadFilteredListApi<T, F>(
     readListApi: ReadFilteredListAPI<T, F>,
     filterRef: Ref<F | undefined>,
-    debounceMs?: number,
+    options?: UseFilteredListApiOptions,
 ) {
     return useFilteredListApi<T, F>(
         filter => readListApi.readFilteredList(filter),
         filterRef,
-        debounceMs,
+        options,
     );
 }
 
-export function useReadPageApi<T, R extends number[] = number[]>(
+export function useReadPageApi<T>(
     readPageApi: ReadPageAPI<T>,
-    debounceMs?: number,
+    options?: UsePageApiOptions,
 ) {
-    return usePageApi<T, R>(
+    return usePageApi<T>(
         pagination => readPageApi.readPage(pagination),
-        debounceMs,
+        options,
     );
 }
 
-export function useReadFilteredPageApi<T, F, R extends number[] = number[]>(
+export function useReadFilteredPageApi<T, F>(
     readPageApi: ReadFilteredPageAPI<T, F>,
     filterRef: Ref<F | undefined>,
-    debounceMs?: number,
+    options?: UsePageApiOptions,
 ) {
-    return useFilteredPageApi<T, F, R>(
+    return useFilteredPageApi<T, F>(
         (filter, pagination) => readPageApi.readFilteredPage(filter, pagination),
         filterRef,
-        debounceMs,
+        options,
     );
 }

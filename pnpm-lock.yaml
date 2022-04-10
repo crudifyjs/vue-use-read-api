@@ -15,12 +15,12 @@ specifiers:
   vite: 2.9.1
   vite-plugin-dts: 1.0.5
   vue: 2.6.14
-  vue-use-read-api: ^0.0.1
+  vue-use-read-api: ^0.1.2
 
 dependencies:
   '@crudifyjs/api': 0.0.5
   '@vue/composition-api': 1.4.9_vue@2.6.14
-  vue-use-read-api: 0.0.1_vue@2.6.14
+  vue-use-read-api: 0.1.2_8414dc0546a7fec2b290b41e4edbca0b
 
 devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.32.0+typescript@4.6.3
@@ -2473,15 +2473,20 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /vue-use-read-api/0.0.1_vue@2.6.14:
-    resolution: {integrity: sha512-0yb9ZP3SEDSU6FIEqD7Cu4n9YSVFQ6mupFlzITLiX7+dmjTvT3st4vkPK6KpmFqSdpOtXn8GRPfOib6HB6WEhA==}
+  /vue-use-read-api/0.1.2_8414dc0546a7fec2b290b41e4edbca0b:
+    resolution: {integrity: sha512-1C1Zk0Z65aWIUNhWzk2XVsB3Xr3e/srHOsr3RsJXAAOOGnNjRWdUTFeA41y9v6kvidC4k9rHmKQeo7A1iGb3Cw==}
     peerDependencies:
-      vue: ^2.6.4
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
     dependencies:
       '@vue/composition-api': 1.4.9_vue@2.6.14
       '@vueuse/core': 8.2.4_8414dc0546a7fec2b290b41e4edbca0b
       nanoid: 3.3.2
       vue: 2.6.14
+      vue-demi: 0.12.5_8414dc0546a7fec2b290b41e4edbca0b
     dev: false
 
   /vue/2.6.14:
