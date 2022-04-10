@@ -12,7 +12,7 @@ export function useReadFilteredListApi<T, F>(
     debounceMs?: number,
 ) {
     return useFilteredListApi<T, F>(
-        (filter) => readListApi.readFilteredList(filter),
+        filter => readListApi.readFilteredList(filter),
         filterRef,
         debounceMs,
     );
@@ -23,7 +23,7 @@ export function useReadPageApi<T, R extends number[] = number[]>(
     debounceMs?: number,
 ) {
     return usePageApi<T, R>(
-        (pagination) => readPageApi.readPage(pagination),
+        pagination => readPageApi.readPage(pagination),
         debounceMs,
     );
 }
