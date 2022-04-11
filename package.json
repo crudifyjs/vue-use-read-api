@@ -26,14 +26,15 @@
   "packageManager": "pnpm@6.32.4",
   "dependencies": {
     "@crudifyjs/api": "^0.0.5",
-    "@vue/composition-api": "^1.4.9",
     "vue-use-read-api": "^0.1.2"
   },
   "peerDependencies": {
+    "@vue/composition-api": "^1.1.0",
     "vue": "^2.6.4"
   },
   "devDependencies": {
     "@crudifyjs/eslint-config-typescript": "0.0.6",
+    "@vue/composition-api": "^1.4.9",
     "agadoo": "2.0.0",
     "clean-publish": "4.0.0",
     "es-check": "6.2.1",
