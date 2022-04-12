@@ -15,11 +15,11 @@ specifiers:
   vite: 2.9.1
   vite-plugin-dts: 1.0.5
   vue: 2.6.14
-  vue-use-read-api: ^0.1.4
+  vue-use-read-api: ^0.1.5
 
 dependencies:
   '@crudifyjs/api': 0.0.5
-  vue-use-read-api: 0.1.4_8414dc0546a7fec2b290b41e4edbca0b
+  vue-use-read-api: 0.1.5_8414dc0546a7fec2b290b41e4edbca0b
 
 devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.32.0+typescript@4.6.3
@@ -2473,8 +2473,8 @@ packages:
       vue: 2.6.14
     dev: false
 
-  /vue-use-read-api/0.1.4_8414dc0546a7fec2b290b41e4edbca0b:
-    resolution: {integrity: sha512-ldap1R4E59mZHDdWE65B2S9VmI3VzWMxb4ETsqCorePDreO7QbaZ7yJyZcJTz/Jwfh/MMKxi3e4UHbjkbgOAWA==}
+  /vue-use-read-api/0.1.5_8414dc0546a7fec2b290b41e4edbca0b:
+    resolution: {integrity: sha512-5FlTU3fq1vpGqokV6fYlszPsHkvtTobkVm5AvccoN0eAbs1zkVeW2b4u+8nI8agmxiekCQ4m3TwM8md4AlZ5UQ==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
