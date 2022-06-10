@@ -5,7 +5,7 @@ specifiers:
   '@crudifyjs/eslint-config-typescript': 0.0.6
   '@vue/composition-api': ^1.4.9
   agadoo: 2.0.0
-  clean-publish: 4.0.0
+  clean-publish: 4.0.1
   es-check: 6.2.1
   eslint: 7.32.0
   eslint-import-resolver-typescript: 2.7.1
@@ -25,7 +25,7 @@ devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.32.0+typescript@4.6.3
   '@vue/composition-api': 1.4.9_vue@2.6.14
   agadoo: 2.0.0
-  clean-publish: 4.0.0
+  clean-publish: 4.0.1
   es-check: 6.2.1
   eslint: 7.32.0
   eslint-import-resolver-typescript: 2.7.1_eslint@7.32.0
@@ -600,8 +600,9 @@ packages:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
     dev: true
 
-  /clean-publish/4.0.0:
-    resolution: {integrity: sha512-PcOxJSnPgncx/ANmgPw8hj9DDtdLHTxIc6Vh/yXCX7IA9w1oUSx2POL0Vno/7omhyrKxMKTpnRh2wlzwH5zaCw==}
+  /clean-publish/4.0.1:
+    resolution: {integrity: sha512-6v0bh5kQD5FDlxBgXDVNNc6KmAB7iIP/GHD91q9xsGVZT5XB9Y8TNqB7dL5u9PTZlBeLpBw+A1AseRlEEJLSWA==}
+    engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
       cross-spawn: 7.0.3
@@ -1651,7 +1652,7 @@ packages:
     dev: true
 
   /isexe/2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
   /js-tokens/4.0.0:
