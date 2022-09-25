@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@crudifyjs/api': ^0.0.5
   '@crudifyjs/eslint-config-typescript': 0.0.6
-  '@vue/composition-api': ^1.4.9
+  '@vue/composition-api': 1.7.1
   agadoo: 2.0.0
   clean-publish: 4.0.0
   es-check: 6.2.1
@@ -19,11 +19,11 @@ specifiers:
 
 dependencies:
   '@crudifyjs/api': 0.0.5
-  vue-use-read-api: 0.1.5_8414dc0546a7fec2b290b41e4edbca0b
+  vue-use-read-api: 0.1.5_f0d744b5c4495117c0ab6d8ff8b35027
 
 devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.32.0+typescript@4.6.3
-  '@vue/composition-api': 1.4.9_vue@2.6.14
+  '@vue/composition-api': 1.7.1_vue@2.6.14
   agadoo: 2.0.0
   clean-publish: 4.0.0
   es-check: 6.2.1
@@ -361,15 +361,15 @@ packages:
       eslint-visitor-keys: 1.3.0
     dev: true
 
-  /@vue/composition-api/1.4.9_vue@2.6.14:
-    resolution: {integrity: sha512-l6YOeg5LEXmfPqyxAnBaCv1FMRw0OGKJ4m6nOWRm6ngt5TuHcj5ZoBRN+LXh3J0u6Ur3C4VA+RiKT+M0eItr/g==}
+  /@vue/composition-api/1.7.1_vue@2.6.14:
+    resolution: {integrity: sha512-xDWoEtxGXhH9Ku3ROYX/rzhcpt4v31hpPU5zF3UeVC/qxA3dChmqU8zvTUYoKh3j7rzpNsoFOwqsWG7XPMlaFA==}
     peerDependencies:
-      vue: '>= 2.5 < 3'
+      vue: '>= 2.5 < 2.7'
     dependencies:
       vue: 2.6.14
     dev: true
 
-  /@vueuse/core/8.2.4_8414dc0546a7fec2b290b41e4edbca0b:
+  /@vueuse/core/8.2.4_f0d744b5c4495117c0ab6d8ff8b35027:
     resolution: {integrity: sha512-K8DbVLErlHMnEOqy67BrRbDmWCd4Z9X0a1dL6fQdhABLXBydy69Tm7uF5ZUotAqib9sskItYFsAnLhvGSue6bg==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
@@ -380,18 +380,18 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vue/composition-api': 1.4.9_vue@2.6.14
+      '@vue/composition-api': 1.7.1_vue@2.6.14
       '@vueuse/metadata': 8.2.4
-      '@vueuse/shared': 8.2.4_8414dc0546a7fec2b290b41e4edbca0b
+      '@vueuse/shared': 8.2.4_f0d744b5c4495117c0ab6d8ff8b35027
       vue: 2.6.14
-      vue-demi: 0.12.5_8414dc0546a7fec2b290b41e4edbca0b
+      vue-demi: 0.12.5_f0d744b5c4495117c0ab6d8ff8b35027
     dev: false
 
   /@vueuse/metadata/8.2.4:
     resolution: {integrity: sha512-mn4FLULZAHd6r6vo5hLz+99xzwlVDP9qeVtZGV2Ik40m0zETe2okUr3O1Yoz6FReUoc7KAPrf0/GFpWEXVDAnQ==}
     dev: false
 
-  /@vueuse/shared/8.2.4_8414dc0546a7fec2b290b41e4edbca0b:
+  /@vueuse/shared/8.2.4_f0d744b5c4495117c0ab6d8ff8b35027:
     resolution: {integrity: sha512-sLkuZMEumsmEDYie3m6/nrk7SrLGlyUgtVn/0EJZ8Chaj1YfSmBQuLxNE0ruQ/6VZlqkx44jEZxcgbU7qPyAiw==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
@@ -402,9 +402,9 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@vue/composition-api': 1.4.9_vue@2.6.14
+      '@vue/composition-api': 1.7.1_vue@2.6.14
       vue: 2.6.14
-      vue-demi: 0.12.5_8414dc0546a7fec2b290b41e4edbca0b
+      vue-demi: 0.12.5_f0d744b5c4495117c0ab6d8ff8b35027
     dev: false
 
   /acorn-jsx/5.3.2_acorn@7.4.1:
@@ -2457,7 +2457,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vue-demi/0.12.5_8414dc0546a7fec2b290b41e4edbca0b:
+  /vue-demi/0.12.5_f0d744b5c4495117c0ab6d8ff8b35027:
     resolution: {integrity: sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q==}
     engines: {node: '>=12'}
     hasBin: true
@@ -2469,11 +2469,11 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      '@vue/composition-api': 1.4.9_vue@2.6.14
+      '@vue/composition-api': 1.7.1_vue@2.6.14
       vue: 2.6.14
     dev: false
 
-  /vue-use-read-api/0.1.5_8414dc0546a7fec2b290b41e4edbca0b:
+  /vue-use-read-api/0.1.5_f0d744b5c4495117c0ab6d8ff8b35027:
     resolution: {integrity: sha512-5FlTU3fq1vpGqokV6fYlszPsHkvtTobkVm5AvccoN0eAbs1zkVeW2b4u+8nI8agmxiekCQ4m3TwM8md4AlZ5UQ==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
@@ -2482,11 +2482,11 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      '@vue/composition-api': 1.4.9_vue@2.6.14
-      '@vueuse/core': 8.2.4_8414dc0546a7fec2b290b41e4edbca0b
+      '@vue/composition-api': 1.7.1_vue@2.6.14
+      '@vueuse/core': 8.2.4_f0d744b5c4495117c0ab6d8ff8b35027
       nanoid: 3.3.2
       vue: 2.6.14
-      vue-demi: 0.12.5_8414dc0546a7fec2b290b41e4edbca0b
+      vue-demi: 0.12.5_f0d744b5c4495117c0ab6d8ff8b35027
     dev: false
 
   /vue/2.6.14:

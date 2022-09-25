@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@crudifyjs/eslint-config-typescript": "0.0.6",
-    "@vue/composition-api": "^1.4.9",
+    "@vue/composition-api": "1.7.1",
     "agadoo": "2.0.0",
     "clean-publish": "4.0.0",
     "es-check": "6.2.1",
