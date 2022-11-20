@@ -23,7 +23,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "packageManager": "pnpm@6.32.4",
+  "packageManager": "pnpm@6.35.1",
   "dependencies": {
     "@crudifyjs/api": "^0.0.5",
     "vue-use-read-api": "^0.1.5"
