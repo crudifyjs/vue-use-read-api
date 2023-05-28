@@ -36,7 +36,7 @@
     "@crudifyjs/eslint-config-typescript": "0.0.6",
     "@vue/composition-api": "^1.4.9",
     "agadoo": "2.0.0",
-    "clean-publish": "4.0.0",
+    "clean-publish": "4.2.0",
     "es-check": "6.2.1",
     "eslint": "7.32.0",
     "eslint-import-resolver-typescript": "2.7.1",
