@@ -10,7 +10,7 @@ specifiers:
   eslint: 7.32.0
   eslint-import-resolver-typescript: 2.7.1
   nano-staged: 0.6.0
-  simple-git-hooks: 2.7.0
+  simple-git-hooks: 2.9.0
   typescript: 4.6.3
   vite: 2.9.1
   vite-plugin-dts: 1.0.5
@@ -30,7 +30,7 @@ devDependencies:
   eslint: 7.32.0
   eslint-import-resolver-typescript: 2.7.1_eslint@7.32.0
   nano-staged: 0.6.0
-  simple-git-hooks: 2.7.0
+  simple-git-hooks: 2.9.0
   typescript: 4.6.3
   vite: 2.9.1
   vite-plugin-dts: 1.0.5_vite@2.9.1
@@ -2129,8 +2129,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-git-hooks/2.7.0:
-    resolution: {integrity: sha512-nQe6ASMO9zn5/htIrU37xEIHGr9E6wikXelLbOeTcfsX2O++DHaVug7RSQoq+kO7DvZTH37WA5gW49hN9HTDmQ==}
+  /simple-git-hooks/2.9.0:
+    resolution: {integrity: sha512-waSQ5paUQtyGC0ZxlHmcMmD9I1rRXauikBwX31bX58l5vTOhCEcBC5Bi+ZDkPXTjDnZAF8TbCqKBY+9+sVPScw==}
     hasBin: true
     requiresBuild: true
     dev: true
